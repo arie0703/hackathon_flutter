@@ -1,16 +1,20 @@
-# benesse_flutter
+ハッカソンgit使い方  
 
-A new Flutter project.
+①git clone https://github.com/hitodeface/hackathon_flutter.gitでエディタにファイルの内容を入れることができる。    
 
-## Getting Started
+②エディタで編集するときはdevelopブランチに移動する。（git checkout developとコマンドを入力）  
 
-This project is a starting point for a Flutter application.
+③編集して更新したら保存してコマンドうつ  
+git add -A  
+git commit -m 'xxxxxxx'  
+git push origin develop    
 
-A few resources to get you started if this is your first Flutter project:
+③Git Hubをブラウザで開き、レポジトリを確認する  
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+④プルリクエストを送る。developからmasterにファイルの変更が反映される。  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+⑤最新の変更内容を自分のパソコンに入れたければ、git pull origin masterをコマンドにうつ。    
+
+
+developは自分のパソコンで編集する用。masterは常に最新の状態。  
+参考記事：https://qiita.com/gold-kou/items/7f6a3b46e2781b0dd4a0
