@@ -79,10 +79,10 @@ class _DialogueScreen extends State<DialogueScreen> {
     if (n == 0) {
       initialMessage();
       n += 1;
-    } else if(text == 'しんどい'){
+    } else if (text == 'しんどい') {
       ResponseCry();
-    }else{
-      Response()
+    } else {
+      Response();
     }
   }
 
@@ -204,16 +204,16 @@ class ChatMessage extends StatelessWidget {
       ),
       Expanded(
           child: Column(
-            // Columnに組み込んだウィジェットの配置場所を指定
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              Text(this.name, style: TextStyle(fontWeight: FontWeight.bold)),
-              Container(
-                margin: EdgeInsets.only(top: 5.0),
-                child: Text(text),
-              ),
-            ],
-          ))
+        // Columnに組み込んだウィジェットの配置場所を指定
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text(this.name, style: TextStyle(fontWeight: FontWeight.bold)),
+          Container(
+            margin: EdgeInsets.only(top: 5.0),
+            child: Text(text),
+          ),
+        ],
+      ))
     ];
   }
 
@@ -250,5 +250,3 @@ class ChatMessage extends StatelessWidget {
     );
   }
 }
-
-
