@@ -42,6 +42,7 @@ class _DialogueScreen extends State<DialogueScreen> {
             child: Row(
               children: <Widget>[
                 Flexible(
+                  //メッセージテキストをいれるとこ
                   child: TextField(
                     controller: _textController,
                     onSubmitted: _handleSubmitted,
@@ -50,6 +51,7 @@ class _DialogueScreen extends State<DialogueScreen> {
                   ),
                 ),
                 Container(
+                  //送信ボタン
                   margin: EdgeInsets.symmetric(horizontal: 4.0),
                   child: IconButton(
                       icon: Icon(Icons.send),
