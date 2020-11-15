@@ -24,22 +24,22 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('タイトル'),
+        title: const Text('きょうキジ'),
       ),
       body: _pageList[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text('Page1'),
+            icon: Icon(Icons.android),
+            title: Text('ChatBot'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            title: Text('Page2'),
+            icon: Icon(Icons.article_outlined),
+            title: Text('News'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            title: Text('Page3'),
+            icon: Icon(Icons.account_balance_outlined),
+            title: Text('Analysis'),
           ),
         ],
         currentIndex: _selectedIndex,
