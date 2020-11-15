@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            title: Text('Page2-1'),
+            title: Text('Page2'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
